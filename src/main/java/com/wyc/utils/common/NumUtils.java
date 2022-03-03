@@ -37,6 +37,7 @@ public class NumUtils {
      * @return
      */
     public static BigDecimal getBigDecimal(Object value) {
+        System.out.println("解决异常！");
         BigDecimal ret = null;
         if( value != null ) {
             if( value instanceof BigDecimal ) {
