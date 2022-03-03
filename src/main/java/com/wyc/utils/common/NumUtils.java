@@ -37,6 +37,7 @@ public class NumUtils {
      * @return
      */
     public static BigDecimal getBigDecimal(Object value) {
+        System.out.println("我是本地分支");
         BigDecimal ret = null;
         if( value != null ) {
             if( value instanceof BigDecimal ) {
