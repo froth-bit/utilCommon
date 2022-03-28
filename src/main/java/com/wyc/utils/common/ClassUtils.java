@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class ObjectUtils {
+public class ClassUtils {
 
     /**
      * 通过反射获取bean对象里面的属性值
