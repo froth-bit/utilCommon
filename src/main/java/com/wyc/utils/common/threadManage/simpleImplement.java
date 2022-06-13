@@ -1,4 +1,4 @@
-package com.wyc.utils.common.thread;
+package com.wyc.utils.common.threadManage;
 
 public class simpleImplement {
 

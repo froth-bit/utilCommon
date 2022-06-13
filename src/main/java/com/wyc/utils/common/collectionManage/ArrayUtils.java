@@ -1,4 +1,4 @@
-package com.wyc.utils.common;
+package com.wyc.utils.common.collectionManage;
 
 import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.fastjson.JSONObject;
@@ -24,6 +24,10 @@ public class ArrayUtils {
             }
         }
         return String.join(",", list);
+    }
+
+    public static String checkArr(String str,String arg) {
+        return checkArr(str.split(arg));
     }
 
     /**

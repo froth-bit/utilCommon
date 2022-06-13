@@ -1,4 +1,4 @@
-package com.wyc.utils.common;
+package com.wyc.utils.common.collectionManage;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;

@@ -1,6 +1,7 @@
 package com.wyc.utils.common;
 
 import com.alibaba.fastjson.JSONObject;
+import com.wyc.utils.common.mailManage.MailUtils;
 import com.wyc.utils.wo.service.ScmWoHdrService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;

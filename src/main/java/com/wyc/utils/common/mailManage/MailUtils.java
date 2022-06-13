@@ -1,10 +1,8 @@
-package com.wyc.utils.common;
+package com.wyc.utils.common.mailManage;
 
 import cn.hutool.core.lang.Validator;
 import com.alibaba.fastjson.JSONObject;
 import com.sun.mail.util.MailSSLSocketFactory;
-import com.wyc.utils.common.entity.MailDefaultParameters;
-import com.wyc.utils.common.entity.MailEntity;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.MailSendException;
 import org.springframework.mail.javamail.JavaMailSender;

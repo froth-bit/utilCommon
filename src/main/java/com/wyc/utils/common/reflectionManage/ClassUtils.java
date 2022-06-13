@@ -1,4 +1,4 @@
-package com.wyc.utils.common;
+package com.wyc.utils.common.reflectionManage;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

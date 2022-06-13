@@ -1,4 +1,4 @@
-package com.wyc.utils.common;
+package com.wyc.utils.common.arithmeticManage;
 
 import java.math.BigDecimal;
 import java.math.BigInteger;
@@ -48,7 +48,7 @@ public class NumUtils {
             } else if( value instanceof Number ) {
                 ret = BigDecimal.valueOf(((Number) value).doubleValue());
             } else {
-                throw new ClassCastException("Not possible to coerce ["+value+"] from class "+value.getClass()+" into a BigDecimal.");
+                throw new ClassCastException("不可能强制 ["+value+"] 从 "+value.getClass()+" 转到BigDecimal。");
             }
         }
         return ret;

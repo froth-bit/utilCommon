@@ -1,4 +1,4 @@
-package com.wyc.utils.common.entity;
+package com.wyc.utils.common.mailManage;
 
 public enum MailDefaultParameters {
 
