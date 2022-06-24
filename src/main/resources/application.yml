@@ -7,9 +7,6 @@ spring:
     hikari:
       maximum-pool-size: 5
       driver-class-name: com.mysql.cj.jdbc.Driver
-  mail:
-    username: 2397521545@qq.com
-    password: degiglufzrkmdjgj
 server:
   port: 23889
 mybatis-plus:
